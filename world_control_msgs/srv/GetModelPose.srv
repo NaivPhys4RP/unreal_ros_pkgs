@@ -1,7 +1,5 @@
-# This service is used to get the pose of the model described by the given id
+# This service is used to get the model pose described by the id.
 string id
 ---
-# Pose in UE4 world coordinates with ROS conventions
+# Pose of the model
 geometry_msgs/Pose pose
-# true if model could be found
-bool success
